@@ -67,7 +67,7 @@ def play_video_playlist(video_paths, vlc_path):
         print(f"An error occurred during playback: {e}")
 
 if __name__ == "__main__":
-    video_directory = "C:/Users/chadr/Videos"
+    video_directory = "E:/Musiques"
     
     if not os.path.isdir(video_directory):
         print(f"The directory '{video_directory}' does not exist.")
